@@ -8,11 +8,8 @@ print("Kudu kuat yang ikhlas aja ya")
 
 print("Halo Chantiiek")
 # ini adalah comment
-a = 10  # ini adalah comment juga
-"""
-cukup jalani aja setaip orang punya masanya
-ini menggunakan coment line
-"""
+a = 10  # ini adalah vaibale dengan nilai 10
+
 print(a)
 print(time.time() - start_time, "detik")
 # kita bisa mengcompile python ke

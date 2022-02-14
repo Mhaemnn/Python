@@ -1,1 +1,4 @@
-{}
+{
+    "editor.colorDecorators": true,
+    "python.terminal.activateEnvironment": true,
+}
