@@ -6,7 +6,7 @@ print("Hello")
 print("aku tau hari ini cukup melelahkan")
 print("Kudu kuat yang ikhlas aja ya")
 
-print("Halo Chantiiek")
+print("Apa Kabar kamu")
 # ini adalah comment
 a = 10  # ini adalah vaibale dengan nilai 10
 
