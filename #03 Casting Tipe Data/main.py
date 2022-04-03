@@ -3,7 +3,7 @@ print("===BELAJAR CASTING TIPE DATA====")
 # tipe data: int, float, string, boolean
 
 
-# INTEGER
+# INTEGER 
 print("===========INTEGER==========")
 data_int = 9
 print("data=", data_int, "type=", type(data_int))
