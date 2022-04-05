@@ -1,7 +1,7 @@
 # operasi aritmatika
 
-a = 10
-b = 3
+a = 5
+b = 10
 
 # operasi tambah +
 hasil = a + b
