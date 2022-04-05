@@ -1,17 +1,19 @@
-# Episode input user
+#MENGAMBIL INPUTAN DARI USER
 
-# data yang dimasukan pasti string
-data = input("Masukan data: ")
+data  = input("Masukan Nama: ")
+angka = int(input("Masukan Angka: "))
+angka = float(input("Masukan Angka: "))
+biner = bool(int(input("Masukan Bilangan Boolean: ")))
+print("=============================================")
 
-print("data = ", data, ",type =", type(data))
 
-# jika kita ingin mengambil int, maka
-angka = float(input("masukan angka: "))
-angka = int(input("masukan angka: "))
+print("data = ", data, "type = ", type(data))
+print("data = ", angka, "type = ", type(angka))
+print("data = ", biner, "type = ", type(biner))
 
-print("data = ", angka, ",type =", type(angka))
 
-# bagaimana dengan boolean
-biner = bool(int(input("masukan nilai boolean: ")))
+"""
+1. str: data yang dimasukan pasti string
+2. bool: untuk boolean harus di casting dulu ke int, lalu di casting ke boolean
 
-print("data = ", biner, ",type =", type(biner))
+"""
