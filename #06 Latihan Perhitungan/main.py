@@ -5,7 +5,7 @@
 print("\nPROGRAM KONVERSI TEMPERATUR\n")
 
 celcius = float(input('Masukan suhu dalam celcius : '))
-print("suhu adalah", celcius, "Celcius")
+print("suhu dalam adalah", celcius, "Celcius")
 
 # reamur
 reamur = (4/5) * celcius

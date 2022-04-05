@@ -1,12 +1,12 @@
 # operasi aritmatika
 
+print("\nOPERASI ARITMATIKA\n")
 a = 5
 b = 10
 
 # operasi tambah +
-hasil = a + b
+hasil =  a + b
 print(a, '+', b, '=', hasil)
-
 # operasi pengurangan -
 hasil = a - b
 print(a, '-', b, '=', hasil)
