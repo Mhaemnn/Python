@@ -2,4 +2,14 @@
     "editor.colorDecorators": true,
     "python.terminal.activateEnvironment": true,
     "jupyter.jupyterServerType": "local",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "editor.suggest.showStatusBar": false,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
 }
