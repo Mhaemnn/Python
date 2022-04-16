@@ -1,8 +1,9 @@
+print("======================================")
 # format string
 
 # contoh generic
 # string
-nama = "ucup"
+nama = "Muhaemin"
 format_str = f"hello {nama}"
 print(format_str)
 
@@ -13,7 +14,7 @@ print(format_str)
 
 # angka
 angka = 2005.5
-format_str = f"angka = {angka}"
+format_str = f"angka   = {angka}"
 print(format_str)
 
 # bilangan bulat
@@ -23,7 +24,7 @@ print(format_str)
 
 # bilangan dengan ordo ribuan
 angka = 2000000
-format_str = f"jutaan = {angka:,}"
+format_str = f"jutaan  = {angka:,}"
 print(format_str)
 
 # bilangan desimal
@@ -39,15 +40,15 @@ print(format_str)
 # menampilkan tanda + atau -
 angka_minus = -10
 angka_plus = +10.1234
-format_minus = f"minus = {angka_minus:+d}"
-format_plus = f"plus = {angka_plus:+.2f}"
+format_minus = f"minus   = {angka_minus:+d}"
+format_plus = f"plus    = {angka_plus:+.2f}"
 
 print(format_minus)
 print(format_plus)
 
 # memformat persen
 persentase = 0.045
-format_persen = f"persen = {persentase:.2%}"
+format_persen = f"persen  = {persentase:.2%}"
 
 print(format_persen)
 
@@ -61,9 +62,9 @@ print(format_string)
 # format angka lain (binary, octal, hexadecimal)
 
 angka = 255
-format_binary = f"binary = {bin(angka)}"
-format_octal = f"octal = {oct(angka)}"
-format_hex = f"hex = {hex(angka)}"
+format_binary = f"binary  = {bin(angka)}"
+format_octal = f"octal   = {oct(angka)}"
+format_hex = f"hex     = {hex(angka)}"
 
 print(format_binary)
 print(format_octal)
