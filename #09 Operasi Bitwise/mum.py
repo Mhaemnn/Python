@@ -1,5 +1,9 @@
 # episode operator bitwise, operasi biner, binary
 
+from cgi import print_arguments
+from re import X
+
+
 a = 9
 b = 5
 
@@ -53,3 +57,21 @@ print('\n=========<<=========')
 print('nilai :', a, ' , binary :', format(a, '08b'))
 print('----------------------------- (<<)')
 print('nilai :', c, ' , binary :', format(c, '08b'))
+print("\n")
+
+#Contoh program lain
+x = 10
+y = 12
+print("====================================")
+print("x adalah angka", x, "decimal atau", bin(x), "binner")
+print("y adalah angka", y, "decimal atau", bin(y),"binner")
+
+print("\n")
+print("x | y  =", x | y)
+print("x & y  =", x & y)
+print("x ^ y  =", x ^ y)
+print("~x     =", ~X)
+print("x >> y =", x >> y)
+print("x << y =", x << y)
+
+
