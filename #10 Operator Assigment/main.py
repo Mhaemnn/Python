@@ -17,7 +17,7 @@ a /= 2  # artinya adalah a = a / 2
 print("nilai a /= 2, nilai a menjadi", a)
 
 b = 10
-print("\nnilai b =", b)
+print("\nnilai b =",  b)
 
 # modulus dan floor division
 b %= 3
@@ -38,11 +38,11 @@ print("nilai a **= 3, nilai a menjadi", a)
 # operasi bitwise
 # OR
 c = True
-print("\nnilai c =", c)
+print("\nnilai c =",  c)
 c |= False
 print("nilai c |= False, nilai c menjadi", c)
 c = False
-print("nilai c =", c)
+print("nilai c =",  c)
 c |= False
 print("nilai c |= False, nilai c menjadi", c)
 
