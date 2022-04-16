@@ -1,9 +1,13 @@
 # Operasi dan Memanipulasi String
 
 # 1. Menyambung String (concatenate)
-nama_pertama = "Ucup"
+from operator import length_hint
+from tarfile import LENGTH_NAME
+
+
+nama_pertama = "Mokey"
 nama_tengah = "D"
-nama_akhir = "Fame"
+nama_akhir = "Luffy"
 
 nama_lengkap = nama_pertama + nama_tengah + nama_akhir
 print(nama_lengkap)
@@ -31,8 +35,8 @@ status = x not in nama_lengkap
 print("apakah " + x + " tidak ada di " + nama_lengkap + ", " + str(status))
 
 # mengulang string
-print("wk"*100)
-print(100*"wk")
+print("wk"*38)
+print(38*"wk")
 
 # indexing
 print("index ke-0 : " + nama_lengkap[0])  # dimulai dari 0
@@ -55,6 +59,6 @@ print("Character dari ascii code 117 : " + chr(data))
 
 # 4. operator dalam bentuk method
 
-data = "otong surotong pararotong"
-jumlah = data.count("o")
-print("jumlah o di " + data + " : " + str(jumlah))
+data = "Muhaemin Iskandar MI"
+jumlah = data.count("d")
+print("jumlah d di " + data + " : " + str(jumlah))

@@ -1,9 +1,11 @@
+
+print("==================================================")
 # Operasi dan Memanipulasi String
 
 # 1. Menyambung String (concatenate)
-nama_pertama = "Ucup"
+nama_pertama = "Monkey"
 nama_tengah = "D"
-nama_akhir = "Fame"
+nama_akhir = "Luffy"
 
 nama_lengkap = nama_pertama + nama_tengah + nama_akhir
 print(nama_lengkap)
@@ -13,26 +15,29 @@ print(nama_lengkap)
 
 # 2. Menghitung panjang string
 panjang = len(nama_lengkap)
-print("panjang " + nama_lengkap + " adalah " + str(panjang))
+print("panjang " + nama_lengkap + " adalah = " + str(panjang))
 
 # 3. operator untuk string
 
 # cek apakah ada komponen pada sebuah string
-d = "d"
-status = d in nama_lengkap
-print("apakah " + d + " ada di " + nama_lengkap + ", " + str(status))
+m = "m"
+status = m in nama_lengkap
+print("apakah " + m + " ada di " + nama_lengkap + ", " + str(status))
 
-D = "D"
-status = D in nama_lengkap
-print("apakah " + D + " ada di " + nama_lengkap + ", " + str(status))
+M = "M"
+status = M in nama_lengkap
+print("apakah " + M + " ada di " + nama_lengkap + ", " + str(status))
 
 x = "x"
 status = x not in nama_lengkap
 print("apakah " + x + " tidak ada di " + nama_lengkap + ", " + str(status))
 
+X = "X"
+status = X not in nama_lengkap 
+print("apakah " + X + " tidak ada di " + nama_lengkap + "," + str(status))
 # mengulang string
-print("wk"*100)
-print(100*"wk")
+print("HAH"*50)
+print(50*"HAH")
 
 # indexing
 print("index ke-0 : " + nama_lengkap[0])  # dimulai dari 0
@@ -55,6 +60,7 @@ print("Character dari ascii code 117 : " + chr(data))
 
 # 4. operator dalam bentuk method
 
-data = "otong surotong pararotong"
-jumlah = data.count("o")
-print("jumlah o di " + data + " : " + str(jumlah))
+data = "muhaemin iskandar MI"
+jumlah = data.count("a")
+print("jumlah a di " + data + " : " + str(jumlah))
+
