@@ -2,13 +2,14 @@
 
 import datetime as dt
 
-print("Silahkan masukan tanggal, \nbulan dan tahun lahir anda \n")
+print("======================////////========================\n")
+print("SILAHKAN MASUKAN TANGGAL:  \nBULAN & TAHUN LAHIR ANDA:  \n")
 tanggal = int(input("Tanggal \t: "))
 bulan = int(input("Bulan \t\t: "))
 tahun = int(input("Tahun \t\t: "))
 
 tanggal_lahir = dt.date(tahun, bulan, tanggal)
-print(f"Tanggal lahir anda adalah : {tanggal_lahir}")
+print(f"Tgl anda adalah : {tanggal_lahir}")
 
 hari_ini = dt.date.today()
 print(f"Hari ini tanggal: {hari_ini}")
