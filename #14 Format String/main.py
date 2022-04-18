@@ -4,11 +4,10 @@ print("======================================")
 # contoh generic
 # string
 nama = "Muhaemin"
-format_str = f"hello {nama}"
+format_str = f"Hello {nama}"
 print(format_str)
-
 # boolean
-boolean = False
+boolean = True
 format_str = f"boolean = {boolean}"
 print(format_str)
 
@@ -19,17 +18,17 @@ print(format_str)
 
 # bilangan bulat
 angka = 15
-format_str = f"bilangan bulat = {angka:d}"
+format_str = f"bilangan bulat = {angka:d}" # d untuk bilangan bulat
 print(format_str)
 
 # bilangan dengan ordo ribuan
 angka = 2000000
-format_str = f"jutaan  = {angka:,}"
+format_str = f"jutaan  = {angka:,}" # koma (,) untuk memberti tanda
 print(format_str)
 
 # bilangan desimal
 angka = 2005.54321
-format_str = f"desimal = {angka:.3f}"
+format_str = f"desimal = {angka:.3f}" # titik (. menjadi desimalnya) ,3 mengambil huruf di belakang, f untuk menandakan bilang float
 print(format_str)
 
 # menampilkan leading zero
@@ -41,7 +40,7 @@ print(format_str)
 angka_minus = -10
 angka_plus = +10.1234
 format_minus = f"minus   = {angka_minus:+d}"
-format_plus = f"plus    = {angka_plus:+.2f}"
+format_plus = f"plus    = {angka_plus:+.3f}"
 
 print(format_minus)
 print(format_plus)
@@ -53,7 +52,7 @@ format_persen = f"persen  = {persentase:.2%}"
 print(format_persen)
 
 # melakukan operasi aritmatika di dalam placeholder
-harga = 10000
+harga  = 10000
 jumlah = 5
 
 format_string = f"harga total = Rp. {harga*jumlah:,}"
