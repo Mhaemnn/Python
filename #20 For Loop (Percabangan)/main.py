@@ -1,38 +1,24 @@
-# Perulangan (loop)
+# Pengulangan for
 
-# for kondisi:
-# 	aksi
 
-# ini dengan list
-angka2_list = [0, 2, 4, 8, 10]  # ini adalah list
-print(angka2_list)
+# Menggunakan list
+contoh1 = [1,2,3,4,5]
 
-for i in angka2_list:
-    print(f"i sekarang -> {i}")
+for i in contoh1:
+    print(f"pengulangan ke - {i}")
 
-print("akhir dari program 1 \n")
 
-# ini dengan range
-angka2_range = range(5)
+print(f"akhir dari program \n")
 
-for i in angka2_range:
-    print(f"i sekarang -> {i}")
+# Menggunakan range
 
-print("akhir dari program 2 \n")
+contoh2 = range(3,10) # 3,5 ini bukan untuk bilangan float tapi untuk memulai dari 3 sampai 10
 
-angka2_range = range(1, 10)
+for i in contoh2:
+    print(f"pengulangan ke - {i}")
 
-for i in angka2_range:
-    print(f"i sekarang -> {i}")
-    # print("saya keren")
+print("akhir dari program \n")
 
-print("akhir dari program 3 \n")
-
-# menggunakan string
-
-data_str = "saya ganteng abiees"
-
-for huruf in data_str:
-    print(huruf)
-
-print("akhir dari program 4 \n")
+# Menggunakan String
+for i in "indonesia 🇮🇩":
+    print(i)
