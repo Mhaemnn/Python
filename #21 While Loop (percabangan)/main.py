@@ -7,10 +7,10 @@
 # akhir dari program
 print(20*"="+"\n")
 angka = 0
-print(f"angka sekarang -> {angka}")
+print(f"angka pertama -> {angka}")
 
 while angka < 5:
-    angka += 2
+    angka += 1
     print(f"angka sekarang -> {angka}")
     print(f"ditambahkan dengan 1")
 
