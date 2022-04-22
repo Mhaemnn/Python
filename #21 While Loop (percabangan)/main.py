@@ -12,7 +12,7 @@ print(f"angka pertama -> {angka}")
 while angka < 5:
     angka += 1
     print(f"angka sekarang -> {angka}")
-    print(f"ditambahkan dengan 1")
+    print(f"Terima Kasih ya allah")
 
 print("akhir dari program")
 print("\n"+20*"=")
