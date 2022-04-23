@@ -17,18 +17,17 @@
 
 
 
-ankga = 10
+angka = 0
 
-print(f"ankga sekarang -> {ankga}")
+print(f"angka sekarang -> {angka}")
 
-while ankga < 5:
-    ankga += 1
-    print(f"ankga sekarang -> {ankga}")  # aksi 1
-
-    if ankga == 3:
+while angka < 5:
+    angka += 1
+    print(f"angka sekarang -> {angka}") # aksi pertama
+    if angka == 4:
         print("nice!")
-        continue  # akan membuat loop meloncat ke step selanjutnya
 
-    print("whassup!")  # aksi 2
+        continue # akan membuat loop meloncat
+    print("whatsapp!") # aksi kedua
 
-print("Pinish!")
+print("pinish")

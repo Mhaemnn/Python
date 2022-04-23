@@ -7,7 +7,7 @@
 # akhir dari program
 print(20*"="+"\n")
 angka = 0
-print(f"angka pertama  -> {angka}")
+print(f"angka pertama -> {angka}")
 
 while angka < 5:
     angka += 1
