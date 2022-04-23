@@ -7,12 +7,13 @@
 # akhir dari program
 print(20*"="+"\n")
 angka = 0
-print(f"angka pertama -> {angka}")
+print(f"angka pertama  -> {angka}")
 
 while angka < 5:
     angka += 1
     print(f"angka sekarang -> {angka}")
-    print(f"Terima Kasih ya allah")
+    print("Sedang Prosess")
 
-print("akhir dari program")
-print("\n"+20*"=")
+print(f"cukupppp")
+
+print(20*"=")
