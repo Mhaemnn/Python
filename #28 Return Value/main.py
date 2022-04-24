@@ -1,3 +1,4 @@
+print(50*"=")
 # fungsi dengan return value
 def kuadrat(argumen):
     total = argumen**2
@@ -5,10 +6,10 @@ def kuadrat(argumen):
     return total
 
 
-a = kuadrat(4)
+a = kuadrat(9)
 print(a)
 
-print('+'*100)
+print('+'*60)
 
 # fungsi dengan return value dan multiple argumen
 
@@ -27,4 +28,3 @@ def kali(argumen1, argumen2):
 
 b = kali(3, tambah(3, 4))
 
-print(b)
