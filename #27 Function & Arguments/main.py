@@ -1,32 +1,31 @@
-# fungsi dengan menggunakan argumen sederhana
-def siswa(nama):
-    print('siswa ini bernama:', nama)
+# Fungsi dengan menggunakan arguments sederhana
+
+print(50*"="+"\n")
+
+def mahasiswa(nama):
+    print("siswa ini bernama\t:", nama)
+
+mahasiswa("marzuki")
 
 
-siswa('mario')
+# Fungsi dengan menggunakan keywords arguments
+print(15*"-"+"keywords arguments"+14*"-"+"\n")
+def dosen(nama,matul):
+    print(f"dosen ini bernama\t: {nama}")
+    print(f"matakuliah\t\t: {matul}")
 
-# fungsi dengan menggunakan keywords arguments
+dosen(nama='samud', matul='kalkulus')
 
+# Fungsi dengan menggunkan default arguments
+print(15*"-"+"default arguments"+15*"-"+"\n")
+def keuangan(nama,shif='siang',kasbon='boleh'):
+    print(f"nama keuangan \t\t: {nama}")
+    print(f"shif \t\t\t: {shif}")
+    print(f"kasbon \t\t\t: {kasbon}")
 
-def guru(nama, pelajaran):
-    print('guru ini bernama:', nama)
-    print('mengajar:', pelajaran)
-
-
-guru(nama='popong', pelajaran='seni rupa')
-guru(pelajaran='olah raga', nama='endang')
-guru('olah raga', 'raihan')  # ini contoh yang salah
-
-# fungsi dengan menggunakan default arguments
-
-
-def penjagaSekolah(nama, shift='siang', galak='tidak'):
-    print('penjaga sekolah ini bernama:', nama)
-    print('shiftnya:', shift)
-    print('galak?:', galak)
+keuangan('nana')
+keuangan("sarif",shif='malam', kasbon='tidak')
 
 
-penjagaSekolah('Entis')
-penjagaSekolah('Maman', shift='malam')
-penjagaSekolah('Asep', galak='Sangat')
-penjagaSekolah(shift='malam', galak='iya')  # menghasilkan error
+
+print(50*"="+"\n")
