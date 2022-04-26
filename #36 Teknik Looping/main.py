@@ -1,47 +1,52 @@
-# teknik looping
+print("="*40)
+judulAnime = [
+  'Naruto',
+  'One piece',
+  'Kimetsu no yaiba',
+  'Jujutsu kaisen',
+  'Black clover'
+]
 
-nama_band = ['Payung Teduh',
-             'Fourtwnty',
-             'Dialog Dini Hari',
-             'Mr. Sonjaya',
-             'Parahyena',
-             'Syahrini']
-
-kumpulan_lagu = ['Akad',
-                 'Zona Nyaman',
-                 'Rumahku',
-                 'Sang Filsuf',
-                 'Sindoro',
-                 'Jodohku']
+pemeranUtama = [
+  'Uzumaki naruto',
+  'Monkey D. luffy',
+  'Kamado tanjiro',
+  'Yuji itadori',
+  'Asta'
+]
 
 # enumerate
+for i, Anime in enumerate(judulAnime):
+  print(i,Anime)
 
-for index, band in enumerate(nama_band):
-    print(index, ':', band)
+# zip (menggabungkan list)
+for Anime, pemeran in zip(judulAnime, pemeranUtama):
+  print(Anime , "Pemeran utama\t:",pemeran)
 
-# zip
-
-for band, lagu in zip(nama_band, kumpulan_lagu):
-    print(band, 'menyanyikan lagu yang berjudul:', lagu)
-
-# set
-playlist = {'baby baby', 'ada apa dengan cinta', 'cenat-cenut',
-            'jaran goyang', 'jaran goyang', 'gorgom', 'kuda', 'kucing'}
-
-for lagu in sorted(playlist):
-    print(lagu)
+print("="*40)
+#set 
+favorite_anime ={
+  'naruto',
+  'one piece',
+  'black clover',
+  'jujutsu kaisen',
+  'attack on titan'
+}
+for f in sorted(favorite_anime):
+  print(f)
 
 # dictionary
-
 print('='*100)
 
-playlist2 = {'Payung Teduh': 'akad',
-             'Fourtwnty': 'Zona Nyaman',
-             'Dialog Dini Hari': 'Rumahku',
-             }
+favorite_character ={
+  'Kitagawa Marlin': 'My Dress-Up Darling',
+  'Nezuko Kamado'  : 'Demon Slayer: Kimetsu no Yaiba',
+  'Raphtalia'      : 'The Rising of The Shield Hero',
+  'Iroha Igarashi' : '3D Kanojo: Real Girl'
+}
 
-for i, v in playlist2.items():
-    print(i, 'lagunya:', v)
+for i, v in favorite_character.items():
+    print(i, 'Girl Favorite :', v)
 
 for i in reversed(range(1, 10, 1)):
     print(i)
