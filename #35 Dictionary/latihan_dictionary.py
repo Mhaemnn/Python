@@ -5,3 +5,4 @@ buku = {
   "katagory": "manusia bodoh"
 }
 print(buku)
+print("jumlah attribut varible sekolah adalah: ",len(buku))
