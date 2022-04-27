@@ -14,6 +14,13 @@
 # tambah(4,5)
 # kurang(5,4)
 
-from mtk import tambah as t
+from mtk import tambah as tambah
+from mtk import kurang as kurang
+from mtk import perkalian as perkalian
+from mtk import pembagian as pembagian
 
-t(3, 4)
+
+tambah(100,100)
+kurang(1000,999)
+perkalian(12,78)
+pembagian(100,2)
