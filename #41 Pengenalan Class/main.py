@@ -1,12 +1,21 @@
 class Mahasiswa():
     nama = 'nama'
+    umur = 24
+    status = 'mahasiswa'
+    jk = 'laki'
 
 
-otong = Mahasiswa()
-ucup = Mahasiswa()
+muhaemin= Mahasiswa()
+muhaemin.nama = 'muhaemin'
+muhaemin.umur = 24
+muhaemin.status = 'single'
+muhaemin.jk = 'laki-laki'
 
-otong.nama = "otong surotong"
-ucup.nama = "michael ucup"
+kamu = Mahasiswa()
+kamu.nama
+kamu.umur
+kamu.status
+kamu.jk
 
-print(otong.nama)
-print(ucup.nama)
+print(muhaemin.nama, muhaemin.umur, muhaemin.status, muhaemin.jk)
+print(kamu.nama, kamu.umur, kamu.status, kamu.jk)
