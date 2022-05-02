@@ -1,21 +1,13 @@
-# class
-class Mahasiswa():
-    nama = 'nama'
+"""
+method adalah code yang berisi sebuah fungsi yang dapat digunakan
+dalam suatu class 
+"""
 
-    def belajar(self, kondisi):
-        print(self.nama, 'sedang belajar', kondisi)
+class product(): #class
+    nama_product = 'nama product' # attribute
+    
+    def dataProduct(self,kondisi): # method dataProduct dan kondisi
+        print(self.nama_product, ": buku tulis dengan harga", kondisi) # memanggil nama attribute
 
-    def tidur(self):
-        print(self.nama, 'tidur di kelas')
-
-# main programnya
-
-
-otong = Mahasiswa()
-ucup = Mahasiswa()
-
-otong.nama = "otong surotong"
-ucup.nama = "michael ucup"
-
-otong.belajar('dengan giat')
-ucup.tidur()
+beli = product() # instansiasi
+beli.dataProduct(340000) # memanggil nama method dan masukan kondisi

@@ -6,16 +6,16 @@ class Mahasiswa():
 
 
 muhaemin= Mahasiswa()
-muhaemin.nama = 'muhaemin'
+muhaemin.nama = 'juminten'
 muhaemin.umur = 24
 muhaemin.status = 'single'
 muhaemin.jk = 'laki-laki'
 
 kamu = Mahasiswa()
-kamu.nama
-kamu.umur
-kamu.status
-kamu.jk
+kamu.nama = 'markonah'
+kamu.umur = 50
+kamu.status = 'janda'
+kamu.jk = 'perempuan'
 
-print(muhaemin.nama, muhaemin.umur, muhaemin.status, muhaemin.jk)
-print(kamu.nama, kamu.umur, kamu.status, kamu.jk)
+print('mahasiswa 1',muhaemin.nama, muhaemin.umur, muhaemin.status, muhaemin.jk)
+print('mahasiswa 2',kamu.nama, kamu.umur, kamu.status, kamu.jk)
