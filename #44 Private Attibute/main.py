@@ -23,13 +23,13 @@ class mahasiswa():
 # main programnya
 
 
-otong = mahasiswa("otong surotong", 13317001)
-ucup = mahasiswa("michael ucup", 13317002)
+rahel = mahasiswa("rahel mulyo", 13317001)
+samud = mahasiswa("michael samud", 13317002)
 
-otong.uts(10)
-otong.uas(50)
-otong.check_status()
-ucup.uts(5)
-ucup.uas(25)
-ucup.__nilai = 60
-ucup.check_status()
+rahel.uts(10)
+rahel.uas(50)
+rahel.check_status()
+samud.uts(5)
+samud.uas(25)
+samud.__nilai = 60
+samud.check_status()
