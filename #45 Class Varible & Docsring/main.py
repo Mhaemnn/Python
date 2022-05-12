@@ -1,3 +1,7 @@
+from tkinter import N
+
+
+print(10*"="+" Class Variable & Docstring "+10*"="+"\n")
 # class
 class mahasiswa():
 
@@ -11,8 +15,8 @@ class mahasiswa():
 # main programnya
 
 
-otong = mahasiswa("otong surotong", 13317001)
-ucup = mahasiswa("michael ucup", 13317002)
-cassandra = mahasiswa("cassandra aja", 13317002)
+Fahreza = mahasiswa("Fahreza Munawar", 13317001)
+Muhamad = mahasiswa("Muhamad Kiki", 13317002)
+Dede    = mahasiswa("Dede Ilham", 13317002)
 
 print(mahasiswa.jumlah_mahasiswa)
