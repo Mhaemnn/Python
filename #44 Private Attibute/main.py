@@ -16,20 +16,20 @@ class mahasiswa():
 
     def check_status(self):
         if self.__nilai <= 50:
-            print(self.nama, 'tidak lulus')
+            print(self.nama, 'Tidak Lulus')
         else:
-            print(self.nama, 'lulus')
+            print(self.nama, 'Lulus')
 
 # main programnya
 
 
-rahel = mahasiswa("rahel mulyo", 13317001)
-samud = mahasiswa("michael samud", 13317002)
+Samsudin = mahasiswa("Samsudin Nugroho: ", 13317001)
+Paijo = mahasiswa("Michael Paijo\t: ", 13317002)
 
-rahel.uts(10)
-rahel.uas(50)
-rahel.check_status()
-samud.uts(5)
-samud.uas(25)
-samud.__nilai = 60
-samud.check_status()
+Samsudin.uts(10)
+Samsudin.uas(50)
+Samsudin.check_status()
+Paijo.uts(5)
+Paijo.uas(25)
+Paijo.__nilai = 60
+Paijo.check_status()
