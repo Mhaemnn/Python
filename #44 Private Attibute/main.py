@@ -1,7 +1,7 @@
 # class
 class mahasiswa():
 
-    jurusan = "teknik tata boga"
+    jurusan = "teknik perteknikan"
     __nilai = 0  # private
 
     def __init__(self, input_nama, input_nim):
