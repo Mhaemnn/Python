@@ -10,8 +10,12 @@ class orang:
 Pujo = orang('pujo','malang')
 Pujo.perkenalan()
 
-bambang = orang("bambang", "nganjuk")
-bambang.perkenalan()
 
-nasir = orang("nasir","bandung")
-nasir.perkenalan()
+#membuat class turunan dengan cara mengirimkan class induk sebagai parameter
+class pelajar(orang):
+    pass
+
+muhaemin = orang("muhaemin", "bandung")
+muhaemin.perkenalan()
+
+#membuat constructor pada class turunan
