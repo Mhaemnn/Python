@@ -1,23 +1,17 @@
-class Ojek():
-
-    def __init__(self, nama, transmisi, daerah):
+print(20*"="+"Inheritance"+20*"=")
+class orang:
+    def __init__(self,nama, asal):
         self.nama = nama
-        self.transmisi = transmisi
-        self.daerah = daerah
+        self.asal = asal
 
-    def cek_id_abang(self):
-        print('nama:', self.nama, '\nmotor:',
-              self.transmisi, '\ndaerah:', self.daerah)
+    def perkenalan(self):
+        print(f"perkenalkan nama saya {self.nama} dari {self.asal}")
 
+Pujo = orang('pujo','malang')
+Pujo.perkenalan()
 
-class Gojek(Ojek):
+bambang = orang("bambang", "nganjuk")
+bambang.perkenalan()
 
-    def cek_id_abang(self):
-        print('cek aplikasi gojek')
-
-
-ojek1 = Ojek('mario', 'manual', 'bandung selatan')
-ojek2 = Gojek('jackson', 'automatic', 'tasikmalaya')
-
-ojek1.cek_id_abang()
-ojek2.cek_id_abang()
+nasir = orang("nasir","bandung")
+nasir.perkenalan()
