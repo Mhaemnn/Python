@@ -1,17 +1,15 @@
+from cProfile import label
 import tkinter
 
-main_window = tkinter.Tk()
+root = tkinter.Tk()
 
+def event():
+    label = tkinter.Label(root, text="Python")
+    label.pack()
 
-def event_tekan():
-    label2 = tkinter.Label(main_window, text="aku ditekan ^_^")
-    label2.pack()
-
-
-label = tkinter.Label(
-    main_window, text="halo, saya adalah \n GUI sederhana dengan \n menggunakan python")
-tombol = tkinter.Button(main_window, text="tekan akuh", command=event_tekan)
+label = tkinter.Label(root, text="Bahasa Pemrograman Yang Paling aku Sukai")
+button = tkinter.Button(root, text="Click", command= event)
 
 label.pack()
-tombol.pack()
-main_window.mainloop()
+button.pack()
+root.mainloop()
