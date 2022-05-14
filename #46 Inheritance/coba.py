@@ -4,5 +4,7 @@ class orang:
       self.nama = nama
       self.asal = asal
 
-
       print("fungsi orang. __init__() dieksekusi")
+
+  
+    
