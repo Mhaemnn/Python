@@ -1,19 +1,25 @@
-print(20 * "=" + "Constructor __init__()" + 20 * "=")
+from traceback import print_tb
 
 
-class hero:
-
-    def __init__(self, inputNama, inputPower, inputHealth) -> None:
-        self.nama = inputNama
-        self.power = inputPower
-        self.Health = inputHealth
+print(20 * "=" + "Constructor __init__()" + 20 * "="+"\n")
 
 
-hero1 = hero("muhaemin", 100, 100)
-hero2 = hero("rama", 100, 10)
-hero3 = hero("dani", 100, 0)
+class Hero:
 
+    def __init__(self, inputName, inputHealth, inputArmor) -> None:
+        self.name   = inputName
+        self.health = inputHealth
+        self.armor  = inputArmor
+
+
+hero1 = Hero("Hendra", 1000, 100)
+hero2 = Hero("Sutisna", 100, 0)
+hero3 = Hero("Samdan", 1000, 1000)
 
 print(hero1.__dict__)
 print(hero2.__dict__)
-print(hero3.__dict__)
+print(hero3.__dict__,"\n")
+
+
+
+print(62*"=")
