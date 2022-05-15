@@ -7,7 +7,7 @@ while True:
     pembilang = int(input("Masukan angkan pembilang\t: "))
     hasil     = penyebut / pembilang
     break
-  except:
-    print("Harap memasukan angka!!")
+  except: # jika menggunakan try dan except saja memasukan angak dan selain angka tidak akan error
+    print("") 
 
 print("Berhasil, hasil pembagian adalah: ", hasil)
