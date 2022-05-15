@@ -1,3 +1,5 @@
+print(10 * "=" + "Membuat Game Sederhana" + 10 * "="+"\n"+"\n")
+
 class Hero:
 
     def __init__(self, name, health, attackPower, armorNumber):

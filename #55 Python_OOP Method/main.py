@@ -1,40 +1,41 @@
 # belajar method
-print(20 * "=" + "OOP-Method" + 20 * "=")
+from unicodedata import name
+
+
+print(20 * "=" + "OOP-Method" + 20 * "="+'\n')
 
 
 class Hero:
+
     # class variable
+    jumlah = 0
 
-    jumlah_hero = 0
-
-    def __init__(self, inputNama, inputHeatlh, inputPower, inputArmor) -> None:
-        # instances
-        self.name = inputNama
+    def __init__(self, inputName, inputHeatlh, inputPower, inputArmor) -> None:
+        # instance varible
+        self.name = inputName
         self.health = inputHeatlh
         self.power = inputPower
         self.armor = inputArmor
+        Hero.jumlah += 1
 
-        Hero.jumlah_hero += 1
+    # Membuat method
+    # method tampa return tampa argumen
+    def who(self):
+        print("my name is: ",self.name)
 
-    # method tampa return & argument, di bahas lain(void function)
-    def siapa(self):
-        print("namaku adalah " + self.name)
-
-    # method dengan argument tampe return
-    def healthUp(self, Up):
-        self.health += Up
-
-    # method dengan return
-    def Gethealth(self):
-        return self.health
+    # method dengan argument tampa return
+    def healthUp(self,up):
+        self.health  += up
 
 
-hero1 = Hero("muhaemin", 1000, 1001, 1000)
-hero2 = Hero("rama", 183, 0, 88)
-hero3 = Hero("nanang", 100, 68, 900)
-hero4 = Hero("ucup", 299, 89, 0)
+hero1 = Hero("Hendra", 100, 100, 100)    
+hero2 = Hero("Sanawi", 100, 10, 0)
 
-hero1.siapa()
-hero1.healthUp(290)
+hero1.who()
+hero1.healthUp(20)
 
-print(hero1.Gethealth())
+
+
+
+
+print(50*"=")
