@@ -1,23 +1,22 @@
-class hero:  # template
+from email.base64mime import header_length
+
+
+class Hero:
     pass
 
+hero1 = Hero()
+hero2 = Hero()
+hero3 = Hero()
 
-print(20 * "=" + "pendahuluan: class" + 20 * "=")
+hero1.name   = "Hendra"
+hero1.health = 1000
 
-hero1 = hero()  # object / instance
-hero2 = hero()
-hero3 = hero()
+hero2.name   = "Dasep"
+hero2.health = 900
 
+hero3.name   = "Suryana"
+hero3.health = 3990
 
-hero1.nama = "muhaemin"
-hero1.health = 100
-
-hero2.nama = "rama"
-hero2.health = 100
-
-hero3.nama = "dani"
-hero3.health = 100
-
-print(hero1)
-print(hero1.__dict__)
-print(hero1.nama)
+print(hero3)
+print(hero3.__dict__)
+print(hero3.name, hero3.health)
