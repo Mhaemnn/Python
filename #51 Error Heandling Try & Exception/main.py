@@ -6,3 +6,13 @@ try:
     print('Kami akan carikan ukuran yang sesuai')
 except:
     print('Nilai ukuran sepatu yang anda masukkan tidak valid')
+"""
+    type of exception error:
+     1. IOError
+     2. ImportError
+     3. ValueError
+     4. Devision by Error
+     5. KeyboardInterupted
+     6. EOFError 
+     
+"""
