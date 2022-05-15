@@ -1,28 +1,29 @@
 # Class and Instances Variables
-print(10 * "=" + "class and instances variables" + 10 * "=")
+print(10 * "=" + "class and instances variables" + 10 * "="+"\n")
 
+class Hero: # class / template
+    jumlah = 0 # class varible / static varible 
 
-class hero:  # template
-    # class varibel
-    jumlah = 0
-
-    def __init__(self, inputNama, inputHealth, inputPower, inputArmor) -> None:
-        # instances varibles
-        self.nama = inputNama
+    def __init__(self, inputNama, inputHealth, inputArmor) -> None:
+        # instance varible
+        self.nama   = inputNama
         self.health = inputHealth
-        self.power = inputPower
-        self.armor = inputArmor
-        hero.jumlah += 1
-        print("membuat hero dengan nama", inputNama)
+        self.armor  = inputArmor
+        Hero.jumlah += 1
+        print("NAME HERO",inputNama, "HEALTH",inputHealth, "ARMOR",inputArmor )
+
+hero1 = Hero("HENDREA", 100, 10)
+print(Hero.jumlah)
+hero2 = Hero("SUTISNA", 100, 100)
+print(Hero.jumlah)
+hero3 = Hero("SURYANA", 100,100)
+print(Hero.jumlah,"\n")
 
 
-hero1 = hero("muhaemin", 100, 1000, 1000000)  # object
-print(hero.jumlah)
-hero2 = hero("rama", 10, 100, 19)
-print(hero.jumlah)
-hero3 = hero("asuuuuu", 10000, 1000, 1000)
-print(hero.jumlah)
 
+
+
+print(49*"=")
 
 # penjelasan:
 """
