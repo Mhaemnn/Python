@@ -29,10 +29,11 @@ class Hero:
 
 
 hero1 = Hero("Hendra", 100, 100, 100)    
-hero2 = Hero("Sanawi", 100, 10, 0)
+hero2 = Hero("Sanawi", 100, 100, 100)
 
 hero1.who()
-hero1.healthUp(20)
+hero1.healthUp(1000)
+print(hero1.health)
 
 
 
