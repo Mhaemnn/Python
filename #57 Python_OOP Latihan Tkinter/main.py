@@ -1,5 +1,6 @@
 import tkinter
 
+# bisa menggunakan main_window atau root
 main_window = tkinter.Tk()  # Tk ini adalah object
 
 label1 = tkinter.Label(main_window, text='label1')
