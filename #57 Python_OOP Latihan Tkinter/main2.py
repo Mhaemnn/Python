@@ -4,7 +4,7 @@ root = Tk()
 
 for i in range(5):
     root.columnconfigure(i, weight=5)
-    tombol = Button(root, text="Tombol")
+    tombol = Button(root, text="Tempe")
     tombol.grid(row=0, column=i, sticky=E+W) # membuat jadi dinamis
 
 mainloop()
