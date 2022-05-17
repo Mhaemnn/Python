@@ -1,12 +1,10 @@
-
 from tkinter import *
+from turtle import width
+root = Tk()
 
-warna = ['white','yellow','white','yellow','white','yellow']
-
-r = 0
-for c in warna:
-    Label(text=c, relief=RIDGE,width=15).grid(row=r,column=0)
-    Entry(bg=c, relief=SUNKEN,width=10).grid(row=r,column=1)
-    r = r + 1
+for i in range(5):
+    root.columnconfigure(i, weight=5)
+    tombol = Button(root, text="Tombol")
+    tombol.grid(row=0, column=i, sticky=E+W) # membuat jadi dinamis
 
 mainloop()
