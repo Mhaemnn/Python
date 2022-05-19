@@ -11,9 +11,9 @@ tombol2 = tkinter.Button(main_window, text='selesai')
 
 # method positioning
 label1.pack()
-label2.pack()
+
 tombol1.pack()
-tombol2.pack()
+
 
 # method menampilkan GUI
 main_window.mainloop()
