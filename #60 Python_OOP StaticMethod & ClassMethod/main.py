@@ -1,40 +1,38 @@
 
 # belajar StaticMethod & ClassMethod
 
-print(20 * "=" + "StaticMethod & ClassMethod" + 20 * "=")
+print(20 * "=" + "StaticMethod & ClassMethod" + 20 * "="+"\n")
 
 
 class Hero:
-
-    # class variable private
+    #private class varible
     __jumlah = 0
 
-    def __init__(self, name) -> None:
-        self.__name = name
-
+    def __init__(self, name):
+        self.name = name
         Hero.__jumlah += 1
 
-    # method ini hanya berlaku untuk object
-    def getJumlah(self):
+    #method ini berlaku untuk objek
+    def getJumlah1(self):
         return Hero.__jumlah
 
-    # method ini tidak berlaku untuk object tapi berlaku untuk class
-    def getJumalah1():
-        return Hero.__jumlah
-
-    # method static (decorator) akan nempel ke object dan classnya
-    @staticmethod
+    #method ini tidak berlaku untuk objek tapi berlaku untuk class
     def getJumlah2():
         return Hero.__jumlah
 
-    @classmethod
-    def getJumlah3(cls):
-        return cls.__jumlah
+    #method static (decorator) nempel ke objek dan class
+    @staticmethod
+    def getJumlah3():
+        return Hero.__jumlah
 
 
-nanang = Hero("nanang")
-print(Hero.getJumlah2())
-rikimaru = Hero("rikimaru")
-print(rikimaru.getJumlah2())
-ompong = Hero("ompong")
+    @staticmethod
+    def getJumlah4(cls):
+        return cls.__Jumlah
+
+adam = Hero("Adam")
 print(Hero.getJumlah3())
+panji = Hero("Panji")
+print(Hero.getJumlah3())
+sadaku = Hero("Sadaku")
+print(Hero.getJumlah4())
