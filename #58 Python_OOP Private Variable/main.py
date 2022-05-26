@@ -1,26 +1,24 @@
 class Hero:
-    # class variable
-    jumlah_hero = 0
+    # class varibel
+    jumlah = 0
     __privateJumlah = 0
-
-    def __init__(self, name, health) -> None:
+    
+    def __init__(self, name, health):
         self.name = name
-        self.health = health
-
-        # variable instances private
-        self.__private = "ini adalah private"
-
-        # varible instances protected
-        self._protected = "protected"
+        self.health = health 
 
 
-sotgan = Hero("sotgan", 100)
+        #varible instance private
+        self.__private = "private"
 
-# print(sotgan.__dict__) #untuk melihat dictionary apa yang di miliki
+        #varible instance protected
+        self.__protected = "protected"
 
-print(sotgan.__dict__)
-sotgan.__private = "testing"
-print(sotgan.__dict__)
+
+Jhon = Hero("Jhon",100)
+
+print(Jhon.__dict__)
+print(Hero.__dict__)
 
 
 """
