@@ -1,14 +1,10 @@
-class Segitiga:
+class Mobil:
 
-  def __init__(self, alas,tinggi) -> None:
-      self.alas = alas
-      self.tinggi = tinggi
-      self.luas = 0.5 *  alas * tinggi
+  def __init__(self, merk) -> None:
+      self._merk = merk
 
 
-SegitigaBesar = Segitiga (100,80)
+pajero = Mobil("Mitsubisi")
 
-# akses varible alas, tinggi, dan luas dari luar kelas
-print(f"alas: {SegitigaBesar.alas}")
-print(f"tinggi: {SegitigaBesar.tinggi}")
-print(f"luas: {SegitigaBesar.luas}")
+#tampikan _merk dari luar kelas
+print(f"Merk: {pajero._merk}")
