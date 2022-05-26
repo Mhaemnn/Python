@@ -1,4 +1,6 @@
+
 # belajar StaticMethod & ClassMethod
+
 print(20 * "=" + "StaticMethod & ClassMethod" + 20 * "=")
 
 
