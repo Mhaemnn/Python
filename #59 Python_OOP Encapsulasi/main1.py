@@ -1,10 +1,9 @@
 class Mobil:
+  def __init__(self,merk):
+    self.__merk = merk
 
-  def __init__(self, merk) -> None:
-      self._merk = merk
+  def tampilkan_merk(self):
+    print(f"Merk: {self.__merk}")
 
-
-pajero = Mobil("Mitsubisi")
-
-#tampikan _merk dari luar kelas
-print(f"Merk: {pajero._merk}")
+jip = Mobil("Jeep")
+jip.tampilkan_merk()
